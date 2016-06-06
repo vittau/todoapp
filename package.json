@@ -1,0 +1,21 @@
+{
+  "name": "node-todo",
+  "version": "0.0.1",
+  "description": "Simple todo application.",
+  "main": "server.js",
+  "author": "Scotch and Vitor",
+  "dependencies": {
+    "body-parser": "~1.5.2",
+    "express": "~4.7.2",
+    "jsonwebtoken": "^6.2.0",
+    "method-override": "~2.1.2",
+    "morgan": "~1.2.2",
+    "passport": "^0.3.2",
+    "passport-google-oauth20": "^1.0.0",
+    "passport-jwt": "^2.0.0",
+    "pg": "^4.5.5",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.22.0",
+    "sequelize-cli": "^2.4.0"
+  }
+}

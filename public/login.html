@@ -1,0 +1,42 @@
+<!doctype html>
+
+<!-- ASSIGN OUR ANGULAR MODULE -->
+<html ng-app="scotchTodo">
+<head>
+	<!-- META -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"><!-- Optimize mobile viewport -->
+
+	<title>Node/Angular Todo App</title>
+
+	<!-- SCROLLS -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"><!-- load bootstrap -->
+	<style>
+		html 					{ overflow-y:scroll; }
+		body 					{ padding-top:50px; }
+	</style>
+
+</head>
+
+<body>
+	<div class="container">
+
+		<!-- HEADER AND TODO COUNT -->
+		<div class="jumbotron text-center">
+			<h1>Todo App</h1>
+		</div>
+
+		<div class="row">
+			<div style="text-align:center; margin-bottom:30px">
+				<a href="/auth/google" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-log-in"></span> Log-in with Google</a>
+			</div>
+		</div>
+
+		<div class="text-center text-muted">
+			<p>A demo by <a href="http://scotch.io">Scotch</a>, changed by <a href="http://vittau.github.io">Vitor</a> to use <a href="http://docs.sequelizejs.com/">Sequelize/PostgreSQL</a> and <a href="http://passportjs.org/">Passport</a> with <a href="https://github.com/jaredhanson/passport-google-oauth2">Google OAuth</a> and <a href="https://github.com/themikenicholson/passport-jwt">JWT</a>.</p>
+		</div>
+
+	</div>
+
+</body>
+</html>

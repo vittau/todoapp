@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "user",
+    "password": "password",
+    "database": "todoapp",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres",
+    "logging": false
+  },
+  "test": {
+    "username": "user",
+    "password": "password",
+    "database": "todoapp",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres",
+    "logging": false
+  },
+  "production": {
+    "username": "user",
+    "password": "password",
+    "database": "todoapp",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres",
+    "logging": false
+  }
+}
