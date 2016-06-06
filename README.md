@@ -1,5 +1,5 @@
 # todoapp
-Simple todo app using Express, Sequelize/Postgre and Passport with Google OAuth and JWT. Tested with *Node.js 6.2.0*.
+Simple todo app using [Express](http://expressjs.com), [Sequelize](http://docs.sequelizejs.com/en/latest/)/Postgre and [Passport](http://passportjs.org) with [Google OAuth](https://github.com/jaredhanson/passport-google-oauth2) and [JWT](https://github.com/themikenicholson/passport-jwt) ([JSON Web Tokens](http://jwt.io)). Tested with *Node.js 6.2.0*.
 
 ##Usage
 * Run `npm install` to install the dependencies listed on *package.json*;
